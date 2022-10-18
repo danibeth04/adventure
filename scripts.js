@@ -28,5 +28,6 @@ function startGame() {
         startGame();
     }
 }
-
+document.getElementById("playGame").addEventListener("click", startGame);
+document.getElementById("noPlay")
 startGame();
