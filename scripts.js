@@ -26,8 +26,9 @@ function startGame() {
     let replay = confirm("Would you like to play again?")
     if (replay == true) {
         startGame();
-    }
-}
-document.getElementById("playGame").addEventListener("click", startGame);
-document.getElementById("noPlay")
-startGame();
+    };
+};
+
+document.getElementById("playButton").addEventListener("click", startGame);
+
+/* startGame(); */
