@@ -20,8 +20,10 @@ function startGame() {
             }
         }
     // User chooses not to play game
-    } else {
+    } else if (mission =="no") {
         alert("You continue along in your hedge-hoggy ways, none the wiser, and none the more adventurous. That's kind of boring, but you do you, my friend. The end.")
+    } else {
+        alert("Sad day. Come back to play soon!")
     }
     let replay = confirm("Would you like to play again?")
     if (replay == true) {
