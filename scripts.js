@@ -1,3 +1,4 @@
+import {name, replay} from "./modules.js";
 function startGame() {
     // Prompt to start game
     let mission = prompt("You are a hedgehog, quite content with your life. Suddenly, your daily activities are interrupted by a child who needs you to send an urgent message to her fairy godmother. Do you accept the mission? (Enter yes or no)");
@@ -34,11 +35,13 @@ function orange() {
     alert("Oh no! The man was a wizard. He is offended and turns you into a very spiky orange. The end.")
     };
 };
+replay();
+/*
 function replay() {
     let replay = confirm("Would you like to play again?")
     if (replay == true) {
     startGame();
     };
-};
+}; */
 
 document.getElementById("playButton").addEventListener("click", startGame);
