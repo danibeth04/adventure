@@ -1,3 +1,5 @@
+import replay from "./modules.js";
+
 function startGame() {
     // Prompt to start game
     let mission = prompt("You are a hedgehog, quite content with your life. Suddenly, your daily activities are interrupted by a child who needs you to send an urgent message to her fairy godmother. Do you accept the mission? (Enter yes or no)");
@@ -35,7 +37,6 @@ function orange() {
     };
 };
 
-import replay from "./modules";
 replay();
 
 /*
