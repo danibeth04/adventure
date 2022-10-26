@@ -35,9 +35,8 @@ function orange() {
     } else {
     alert("Oh no! The man was a wizard. He is offended and turns you into a very spiky orange. The end.");
     };
+    replay();
 };
-
-replay();
 
 /*
 function replay() {
